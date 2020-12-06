@@ -5,7 +5,7 @@ provider "aws" {
 
 # S3 bucket for backend
 resource "aws_s3_bucket" "tfstate" {
-  bucket = "tf101-inflearn-apne2-tfstate"
+  bucket = "tf101-apne2-tfstate"
 
   versioning {
     enabled = true # Prevent from deleting tfstate file
@@ -14,7 +14,7 @@ resource "aws_s3_bucket" "tfstate" {
 
 # DynamoDB for terraform state lock
 resource "aws_dynamodb_table" "terraform_state_lock" {
-  name           = "inflearn-terraform-lock"
+  name           = "terraform-lock"
   hash_key       = "LockID"
   billing_mode   = "PAY_PER_REQUEST"
 

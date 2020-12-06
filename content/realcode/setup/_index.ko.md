@@ -47,6 +47,6 @@ terraform {
 ### chapter6/s3.tf
 ```bash
 resource "aws_s3_bucket" "test" {
-  bucket = "terraform101-inflearn"
+  bucket = "terraform101"
 }
 ```

@@ -191,7 +191,7 @@ Terraform will perform the following actions:
       + acceleration_status         = (known after apply)
       + acl                         = "private"
       + arn                         = (known after apply)
-      + bucket                      = "tf101-inflearn-apne2-tfstate"
+      + bucket                      = "tf101-apne2-tfstate"
       + bucket_domain_name          = (known after apply)
       + bucket_regional_domain_name = (known after apply)
       + force_destroy               = false
@@ -251,9 +251,9 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
             "billing_mode": "PAY_PER_REQUEST",
             "global_secondary_index": [],
             "hash_key": "LockID",
-            "id": "inflearn-terraform-lock",
+            "id": "terraform-lock",
             "local_secondary_index": [],
-            "name": "inflearn-terraform-lock",
+            "name": "terraform-lock",
             "point_in_time_recovery": [
               {
                 "enabled": false
@@ -292,7 +292,7 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
             "acceleration_status": "",
             "acl": "private",
             "arn": "arn:aws:s3:::tf101-jupiter-apne2-tfstate",
-            "bucket": "tf101-inflearn-apne2-tfstate",
+            "bucket": "tf101-apne2-tfstate",
             "bucket_domain_name": "tf101-jupiter-apne2-tfstate.s3.amazonaws.com",
             "bucket_prefix": null,
             "bucket_regional_domain_name": "tf101-jupiter-apne2-tfstate.s3.ap-northeast-2.amazonaws.com",
